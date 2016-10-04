@@ -1,0 +1,10 @@
+#goal definition
+string movement
+---
+#result definition
+int32[] x
+float32[] y
+float32[] z
+---
+#feedback
+int32 feed
