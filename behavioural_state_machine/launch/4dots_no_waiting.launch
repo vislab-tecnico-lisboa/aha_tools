@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="ip_kinect_two_pc" default="mongodb://192.168.1.153:27017/"/>
+  <node pkg="behavioural_state_machine" name="connect_node" type="connect_node.py" args="$(arg ip_kinect_two_pc)" output="screen"/>
+
+  <node pkg="behavioural_state_machine" name="s_m_4dotsww" type="s_m_4dotsww.py" />
+
+</launch>
