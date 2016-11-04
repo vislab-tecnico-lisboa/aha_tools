@@ -13,7 +13,7 @@ def talker(ip_port):
 	#client = MongoClient()
 	#client = MongoClient('localhost', 27017)
 	#client = MongoClient('mongodb://10.0.27.117:27017/')
-	print 'PLINIO ' + ip_port
+	#print 'PLINIO ' + ip_port
 	client = MongoClient(ip_port)#'mongodb://192.168.1.153:27017/')
 
 	db = client.AHA
